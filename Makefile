@@ -194,6 +194,7 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
+	$U/sleep
 
 
 
@@ -203,6 +204,7 @@ UPROGS += \
 	$U/_attack\
 	$U/_attacktest\
 	$U/_secret
+	$U/sleep
 endif
 
 ifeq ($(LAB),lock)
