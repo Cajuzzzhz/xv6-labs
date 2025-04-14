@@ -195,6 +195,7 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/sleep
+	$U/pingpong
 
 
 
@@ -205,6 +206,7 @@ UPROGS += \
 	$U/_attacktest\
 	$U/_secret
 	$U/sleep
+	$U/pingpong
 endif
 
 ifeq ($(LAB),lock)
